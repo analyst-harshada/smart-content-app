@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Asset
+from .serializers import AssetSerializer
 
-# Create your views here.
+class AssetViewSet(viewsets.ModelViewSet):
+    queryset = Asset.objects.all().order_by('-uploaded_at')
+    serializer_class = AssetSerializer

@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'contentapp',   # Your PostgreSQL Database Name
-        'USER': 'abhi',     # Your PostgreSQL Username
+        'USER': 'harshada',     # Your PostgreSQL Username
         'PASSWORD': 'Password', # Your PostgreSQL Password
         'HOST': 'localhost',    # Host
         'PORT': '5432',         # Default Port
