@@ -1,4 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import PlannerPage from './pages/PlannerPage';
+import AssetsPage from './pages/AssetsPage';
+// import { Grid, GridColumn, GridToolbar } from '@progress/kendo-react-grid';
 import { Button } from '@progress/kendo-react-buttons';
 // Changes in app.js
   function App() {
